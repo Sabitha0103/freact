@@ -4,7 +4,7 @@ import StudentForm from "./StudentForm";
 import StudentList from "./StudentList";
 import './assets/css/style.css'; 
 
-const API_URL = "http://localhost:8081/students";
+const API_URL = "https://student-production-49b0.up.railway.app/students";
 
 function App() {
   const [students, setStudents] = useState([]);
